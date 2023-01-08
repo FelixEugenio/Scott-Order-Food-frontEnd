@@ -31,8 +31,8 @@ const [user,setUser]  = useState<UserProps | null>(null);
 const isAuthtenticated = !!user;
 
 
-  async function signIn(){
-    alert("click")
+  async function signIn({email,password}:SignInProps){
+    console.log("",email,password)
 
     }
 
