@@ -3,7 +3,8 @@ import Image from "next/image"
 import styles from '../../styles/home.module.scss'
 import logoImg from '../../public/logo.svg'
 import { Button } from "../components/ui/Button"
-
+import Link from "next/link"
+ 
 import {Input} from '../components/ui/Input/index';
 export default function Home() {
   return (
@@ -34,8 +35,8 @@ export default function Home() {
             Entrar
           </Button>
         </form>
-        <a className={styles.text}>Nao possui uma conta ? Cadastra-se </a>
 
+       <Link className={styles.text} href="/signup">Nao possui uma conta ? Cadastra-se</Link>
       </div>
     </div>
     </>
