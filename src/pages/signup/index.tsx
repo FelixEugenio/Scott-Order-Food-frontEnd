@@ -17,7 +17,7 @@ export default function SignUp() {
       <Image src={logoImg} alt="logo Scott"/>
 
       <div className={styles.login}>
-        <h1 className={styles.text}>Criando a sua Conta</h1><br />
+        <h1>Criando a sua Conta</h1>
         <form>
 
         <Input 
